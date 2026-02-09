@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+.env.local
+.vercel
+Miztake.fun_contents/
+Miztake.fun.zip
+*.mov
+.claude/
