@@ -1,0 +1,138 @@
+.thesis {
+  min-height: 100vh;
+  background-color: var(--bg-dark);
+  padding: 60px 20px 100px;
+}
+
+.thesis-container {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.thesis-back {
+  display: inline-block;
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  margin-bottom: 48px;
+  transition: color 0.2s;
+}
+
+.thesis-back:hover {
+  color: var(--text-primary);
+}
+
+.thesis-hero-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+
+.thesis-title {
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.thesis-subtitle {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.thesis-author {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.thesis-author a {
+  color: var(--accent-gold);
+  transition: opacity 0.2s;
+}
+
+.thesis-author a:hover {
+  opacity: 0.8;
+}
+
+.thesis-divider {
+  width: 100%;
+  height: 1px;
+  background: var(--border-color);
+  margin: 40px 0;
+}
+
+.thesis-section {
+  margin-bottom: 40px;
+}
+
+.thesis-section h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 20px;
+}
+
+.thesis-section p {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  line-height: 1.75;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.thesis-section strong {
+  color: var(--text-primary);
+}
+
+.thesis-section ul,
+.thesis-section ol {
+  margin: 16px 0;
+  padding-left: 24px;
+}
+
+.thesis-section li {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  line-height: 1.75;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.thesis-bio {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .thesis {
+    padding: 40px 16px 80px;
+  }
+
+  .thesis-title {
+    font-size: 1.8rem;
+  }
+
+  .thesis-subtitle {
+    font-size: 1.05rem;
+  }
+
+  .thesis-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .thesis-section p,
+  .thesis-section li {
+    font-size: 1.05rem;
+  }
+}

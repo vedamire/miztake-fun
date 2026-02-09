@@ -1,5 +1,7 @@
 # Ved Efan
 
+![Ved Efan](live_photo.jpg)
+
 **Fullstack Web3 Growth Engineer**
 
 [@vedamire](https://x.com/vedamire) | [github.com/vedamire](https://github.com/vedamire) | vedefan@returntogod.love
